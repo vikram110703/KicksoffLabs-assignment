@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 
 
 const API = axios.create({
-  baseURL: 'https://kicksofflabs-assignment.onrender.com/api', // Update with your backend URL
+  baseURL: 'https://kicksofflabs-assignment.onrender.com/api', // replace with your backend URL
 });
 
 API.interceptors.request.use((req) => {
