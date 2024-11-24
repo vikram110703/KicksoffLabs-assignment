@@ -32,7 +32,7 @@ npm install
 
 Create a `.env` file for environment variables in the `Backend` directory (e.g., database URI, port):
 ```
-DB_NAME=calendar_app
+DB_NAME=DB_name of your online DATABASE||calendar_app
 DB_HOST=host url of your db(postgresql)
 DB_USER=postgresql user name
 DB_PASSWORD=postfreSql user password
